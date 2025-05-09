@@ -39,6 +39,13 @@ body {
   z-index: -1;
 }
 
+/* Mobile override to disable noise and fix grey text */
+@media (max-width: 768px) {
+  .wrapper:before {
+    display: none !important;
+  }
+}
+
 .intro {
   font-family: Manrope-Bold;
   color: #fafafa;

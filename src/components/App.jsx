@@ -188,14 +188,14 @@ export default function App() {
                 {projects.slice(0, 5).map((proj, i) => (
                   <div
                     key={i}
-                    className="rounded-xl border bg-card text-card-foreground shadow flex flex-col"
+                    className="rounded-xl border bg-transparent text-white shadow flex flex-col"
                     style={{ borderColor: "rgb(156, 163, 175)" }}
                   >
                     <div className="flex w-full max-h-[15rem] min-h-[15rem] rounded-xl flex-col space-y-1.5 p-6 pb-2 skeleton relative">
                       <img src={proj.image} alt={`${proj.title} preview`} className="h-full w-full object-cover rounded-xl"/>
                     </div>
                     <div className="p-6 pt-0 flex flex-col gap-2">
-                      <div className="font-sans font-bold text-neutral-600 dark:text-neutral-200 mb-2 mt-2">
+                      <div className="font-sans font-bold text-white mb-2 mt-2">
                         {proj.title}
                       </div>
                       <div className="prose max-w-full text-pretty font-sans text-xs text-muted-foreground dark:prose-invert">
@@ -243,10 +243,10 @@ export default function App() {
                 {/* Link to full project list */}
                 <Link to="/more-projects">
                   <div
-                    className="rounded-xl border bg-card text-card-foreground shadow flex flex-col min-h-[457px] max-h-[457px]"
+                    className="rounded-xl border bg-transparent text-white shadow flex flex-col min-h-[457px] max-h-[457px]"
                     style={{ borderColor: "rgb(156, 163, 175)" }}
                   >
-                    <div className="font-sans font-bold text-neutral-600 text-2xl dark:text-neutral-200 flex flex-col m-auto items-center">
+                    <div className="font-sans font-bold text-white text-2xl flex flex-col m-auto items-center">
                       More Projects
                       <svg
                         width="24"
