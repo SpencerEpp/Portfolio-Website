@@ -16,7 +16,7 @@ export default function App() {
   const cvFile = "/SpencerEpp_CV.pdf";
 
   return(
-    <div id="root">
+    <div id="app">
       <div className="w-full h-full wrapper">
         <div className="ripple"></div>
         <div className="ripple"></div>
@@ -30,7 +30,7 @@ export default function App() {
               <h3 className="pt-4 text-2xl  text-gray-400 moveUpAni"> Jr. Developer </h3>
               <h3 className="pt-4 text-2xl  text-gray-400 moveUpAni"> Outdoor Enthusiast </h3>
               <div className=" rounded w-40 flex moveUpAni items-end py-3">
-                <img src="./src/icons/location.svg" alt="Spencer's Location" className="w-6 h-6 sm:w-6 sm:h-6 "/>
+                <img src="/icons/location.svg" alt="Spencer's Location" className="w-6 h-6 sm:w-6 sm:h-6 "/>
                 <p className="pt-2 ml-2 text-md font-thin inline-block align-bottom text-gray-400"> Calgary, Canada </p>
               </div>
               <div className="pt-4 w-full sm:w-70 flex flex-wrap xs:justify-between moveUpAni items-center">
@@ -39,14 +39,14 @@ export default function App() {
                   download
                   className="w-20 h-7 flex items-center justify-center space-x-2 border border-[#fafafa] bg-transparent text-[#fafafa] hover:text-white rounded-[7px]"
                 >
-                  <img src="./src/icons/fileDownload.svg" alt="Download Icon" className="w-4 h-4" />
+                  <img src="/icons/fileDownload.svg" alt="Download Icon" className="w-4 h-4" />
                   <span className="cursor-pointer">CV</span>
                 </a>
                 <a href={linkedinURL} target="_blank" rel="noopener noreferrer" className="inline-block ml-3">
-                  <img src="./src/icons/linkedinIcon.svg" alt="LinkedIn" className="w-7 h-7 sm:w-7 sm:h-7" />
+                  <img src="/icons/linkedinIcon.svg" alt="LinkedIn" className="w-7 h-7 sm:w-7 sm:h-7" />
                 </a>
                 <a href={githubURL} target="_blank" rel="noopener noreferrer" className="ml-3">
-                  <img src="./src/icons/githubIcon.svg" alt="GitHub" className="w-7 h-7 sm:w-7 sm:h-7" />
+                  <img src="/icons/githubIcon.svg" alt="GitHub" className="w-7 h-7 sm:w-7 sm:h-7" />
                 </a>
               </div>
             </div>
@@ -81,7 +81,7 @@ export default function App() {
                     <li className="relative ml-10 py-4">
                       <a target="_blank" className="absolute -left-16 top-4 flex items-center justify-center rounded-full bg-white" href="#">
                         <span className="relative flex shrink-0 overflow-hidden rounded-full size-12 border">
-                          <img className="aspect-square h-full w-full bg-background object-contain" alt="Bow Group" src="./src/images/building_logo.svg"/>
+                          <img className="aspect-square h-full w-full bg-background object-contain" alt="Bow Group" src="/images/building_logo.svg"/>
                         </span>
                       </a>
                       <div className="flex flex-col gap-1">
@@ -94,7 +94,7 @@ export default function App() {
                     <li className="relative ml-10 py-4">
                       <a target="_blank" className="absolute -left-16 top-4 flex items-center justify-center rounded-full bg-white" href="#">
                         <span className="relative flex shrink-0 overflow-hidden rounded-full size-12 border">
-                          <img className="aspect-square h-full w-full bg-background object-contain" alt="Digital Lifestyles" src="./src/images/digital_lifestyles_logo.svg"/>
+                          <img className="aspect-square h-full w-full bg-background object-contain" alt="Digital Lifestyles" src="/images/digital_lifestyles_logo.svg"/>
                         </span>
                       </a>
                       <div className="flex flex-col gap-1">
@@ -107,7 +107,7 @@ export default function App() {
                     <li className="relative ml-10 py-4">
                       <a target="_blank" className="absolute -left-16 top-4 flex items-center justify-center rounded-full bg-white" href="#">
                         <span className="relative flex shrink-0 overflow-hidden rounded-full size-12 border">
-                          <img className="aspect-square h-full w-full bg-background object-contain" alt="WinSport" src="./src/images/Winsport_logo.svg"/>
+                          <img className="aspect-square h-full w-full bg-background object-contain" alt="WinSport" src="/images/winsport_logo.svg"/>
                         </span>
                       </a>
                       <div className="flex flex-col gap-1">
@@ -120,7 +120,7 @@ export default function App() {
                     <li className="relative ml-10 py-4">
                       <a target="_blank" className="absolute -left-16 top-4 flex items-center justify-center rounded-full bg-white" href="#">
                         <span className="relative flex shrink-0 overflow-hidden rounded-full size-12 border">
-                          <img className="aspect-square h-full w-full bg-background object-contain" alt="Camp Chief Hector - YMCA" src="./src/images/ymca_logo.svg"/>
+                          <img className="aspect-square h-full w-full bg-background object-contain" alt="Camp Chief Hector - YMCA" src="/images/ymca_logo.svg"/>
                         </span>
                       </a>
                       <div className="flex flex-col gap-1">
@@ -140,7 +140,7 @@ export default function App() {
                     <li className="relative ml-10 py-4">
                       <a target="_blank" className="absolute -left-16 top-4 flex items-center justify-center rounded-full bg-white" href="#">
                         <span className="relative flex shrink-0 overflow-hidden rounded-full size-12 border">
-                          <img className="aspect-square h-full w-full bg-background object-contain" alt="University" src="./src/images/mru_logo.svg" />
+                          <img className="aspect-square h-full w-full bg-background object-contain" alt="University" src="/images/mru_logo.svg" />
                         </span>
                       </a>
                       <div className="flex flex-col gap-1">
@@ -275,15 +275,15 @@ export default function App() {
               <div className="w-full flex flex-row justify-between moveUpAni bottom-0 items-center">
                 <div className="flex ">
                   <span>
-                    <img src="./src/icons/f1.svg" className="w-28 h-12"/>
+                    <img src="/icons/f1.svg" className="w-28 h-12"/>
                   </span>
                 </div>
                 <div className="flex flex-row ml-auto mr-2">
                   <a href={linkedinURL} target="_blank" rel="noopener noreferrer">
-                    <img src="./src/icons/linkedinIcon.svg" alt="LinkedIn" className="w-7 h-7 sm:w-7 sm:h-7" />
+                    <img src="/icons/linkedinIcon.svg" alt="LinkedIn" className="w-7 h-7 sm:w-7 sm:h-7" />
                   </a>
                   <a href={githubURL} target="_blank" rel="noopener noreferrer" className="ml-3">
-                    <img src="./src/icons/githubIcon.svg" alt="GitHub" className="w-7 h-7 sm:w-7 sm:h-7" />
+                    <img src="/icons/githubIcon.svg" alt="GitHub" className="w-7 h-7 sm:w-7 sm:h-7" />
                   </a>
                 </div>
               </div>

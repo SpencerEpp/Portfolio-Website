@@ -102,7 +102,7 @@ export default function MoreProjects() {
         <div className="w-full flex flex-row justify-between items-center moveUpAni bottom-0">
           <div className="flex">
             <span>
-              <img src="./src/icons/f1.svg" className="w-28 h-12" />
+              <img src="/icons/f1.svg" className="w-28 h-12" />
             </span>
           </div>
           {/* Icons removed as requested */}

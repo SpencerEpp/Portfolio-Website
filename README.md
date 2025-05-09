@@ -21,19 +21,19 @@ portfolio-website/                       # Root of your project
 ├── public/                              # Public assets (served directly by Vite)      
 │   ├── fonts/                           # Custom font files (e.g., Manrope-Regular.ttf)
 │   │   ├── Manrope-Regular.ttf                                                         
-│   │   └── Manrope-Bold.ttf                                                            
-│   └── SpencerEpp_CV.pdf                # PDF of my CV for download                    
-│                                                                                       
-├── src/                                 # Main source code folder                      
-│   ├── components/                      # React components                             
-│   │   ├── App.jsx                      # Main app layout                              
-│   │   └── MoreProjects.jsx             # Extended project listings                    
+│   │   └── Manrope-Bold.ttf                
 │   ├── icons/                           # Static icons                                 
 │   │   ├── .svg                         # Various .svg icons                           
 │   │   └── favicon.png                  # Favicon used for browser tab                 
 │   ├── images/                          # Static images like noise background          
 │   │   ├── .svg                         # Various .svg logo images                     
-│   │   └── noise.jpg                                                                   
+│   │   └── noise.jpg                                                 
+│   └── SpencerEpp_CV.pdf                # PDF of my CV for download                    
+│                                                                                       
+├── src/                                 # Main source code folder                      
+│   ├── components/                      # React components                             
+│   │   ├── App.jsx                      # Main app layout                              
+│   │   └── MoreProjects.jsx             # Extended project listings                                                                                  
 │   ├── projects.js                      # Project data list (used by portfolio section)
 │   ├── style.css                        # Main Tailwind + custom CSS styling           
 │   └── main.jsx                         # Vite entry file; ReactDOM mount point        
