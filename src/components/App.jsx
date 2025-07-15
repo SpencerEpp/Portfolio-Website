@@ -193,11 +193,11 @@ export default function App() {
             {/* Projects */}
             <div className="w-full mt-10 flex flex-col">
               <span className="text-xl sm:text-4xl md:text-4xl lg:text-4xl font-semibold" style={{ fontFamily: 'Manrope-Bold', color: 'rgb(250, 250, 250)' }}>Projects</span>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-10">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-10 items-stretch">
                 {projects.slice(0, 5).map((proj, i) => (
                   <div
                     key={i}
-                    className="rounded-xl border bg-transparent text-white shadow flex flex-col"
+                    className="rounded-xl border bg-transparent text-white shadow flex flex-col justify-between h-full"
                     style={{ borderColor: "rgb(156, 163, 175)" }}
                   >
                     <div className="flex w-full max-h-[15rem] min-h-[15rem] rounded-xl flex-col space-y-1.5 p-6 pb-2 skeleton relative">
@@ -276,10 +276,10 @@ export default function App() {
                 {/* Link to full project list */}
                 <Link to="/more-projects">
                   <div
-                    className="rounded-xl border bg-transparent text-white shadow flex flex-col min-h-[457px] max-h-[457px]"
+                    className="rounded-xl border bg-transparent text-white shadow flex flex-col justify-center items-center h-full px-6"
                     style={{ borderColor: "rgb(156, 163, 175)" }}
                   >
-                    <div className="font-sans font-bold text-white text-2xl flex flex-col m-auto items-center">
+                    <div className="font-sans font-bold text-white text-2xl flex flex-col items-center text-center gap-2">
                       More Projects
                       <svg
                         width="24"
