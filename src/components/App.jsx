@@ -29,7 +29,7 @@ export default function App() {
             {/* Intro and Links to Platforms */}
             <div className="flex flex-col intro w-full  justify-center">
               <h2 className="text-5xl  moveUpAni"> Spencer Epp </h2>
-              <h3 className="pt-4 text-2xl  text-gray-400 moveUpAni"> Jr. Developer </h3>
+              <h3 className="pt-4 text-2xl  text-gray-400 moveUpAni"> Software Developer </h3>
               <h3 className="pt-4 text-2xl  text-gray-400 moveUpAni"> Outdoor Enthusiast </h3>
               <div className=" rounded w-40 flex moveUpAni items-end py-3">
                 <img src="/icons/location.svg" alt="Spencer's Location" className="w-6 h-6 sm:w-6 sm:h-6 "/>
