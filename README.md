@@ -55,6 +55,9 @@ portfolio-website/                       # Root of your project
 ## Build:
 - npm run build
 
+## Deploy:
+- npm run deploy
+
 ## Live Demo:
 https://spencerepp.ca
 
