@@ -29,7 +29,7 @@ export default function App() {
             {/* Intro and Links to Platforms */}
             <div className="flex flex-col intro w-full  justify-center">
               <h2 className="text-5xl  moveUpAni"> Spencer Epp </h2>
-              <h3 className="pt-4 text-2xl  text-gray-400 moveUpAni"> Software Developer </h3>
+              <h3 className="pt-4 text-2xl  text-gray-400 moveUpAni"> Full Stack Developer </h3>
               <h3 className="pt-4 text-2xl  text-gray-400 moveUpAni"> Outdoor Enthusiast </h3>
               <div className=" rounded w-40 flex moveUpAni items-end py-3">
                 <img src="/icons/location.svg" alt="Spencer's Location" className="w-6 h-6 sm:w-6 sm:h-6 "/>
@@ -85,10 +85,23 @@ export default function App() {
               {/* Work Tab Content */}
               {tab === "Work" && (
                 <div className="transition-all duration-500 mt-2 border border-white rounded-lg">
-                  {/* Bow Group - General Labourer */}
                   <ul className="ml-10 border-l">
+                    {/* Neo Financial - Full Stack Developer */}
                     <li className="relative ml-10 py-4">
-                      <a target="_blank" className="absolute -left-16 top-4 flex items-center justify-center rounded-full bg-white" href="#">
+                      <a target="_blank" className="absolute -left-16 top-4 flex items-center justify-center rounded-full bg-white">
+                        <span className="relative flex shrink-0 overflow-hidden rounded-full size-12 border">
+                          <img className="aspect-square h-full w-full bg-background object-contain" alt="Bow Group" src="/images/neo_logo.svg"/>
+                        </span>
+                      </a>
+                      <div className="flex flex-col gap-1">
+                        <time className="text-xs text-gray-400">2025 - Present</time>
+                        <h2 className="font-semibold leading-none">Neo Financial</h2>
+                        <p className="text-sm text-gray-400">Full Stack Developer</p>
+                      </div>
+                    </li>
+                    {/* Bow Group - General Labourer */}
+                    <li className="relative ml-10 py-4">
+                      <a target="_blank" className="absolute -left-16 top-4 flex items-center justify-center rounded-full bg-white">
                         <span className="relative flex shrink-0 overflow-hidden rounded-full size-12 border">
                           <img className="aspect-square h-full w-full bg-background object-contain" alt="Bow Group" src="/images/building_logo.svg"/>
                         </span>
@@ -101,7 +114,7 @@ export default function App() {
                     </li>
                     {/* Digital Lifestyles - Dev Team */}
                     <li className="relative ml-10 py-4">
-                      <a target="_blank" className="absolute -left-16 top-4 flex items-center justify-center rounded-full bg-white" href="#">
+                      <a target="_blank" className="absolute -left-16 top-4 flex items-center justify-center rounded-full bg-white">
                         <span className="relative flex shrink-0 overflow-hidden rounded-full size-12 border">
                           <img className="aspect-square h-full w-full bg-background object-contain" alt="Digital Lifestyles" src="/images/digital_lifestyles_logo.svg"/>
                         </span>
@@ -114,7 +127,7 @@ export default function App() {
                     </li>
                     {/* WinSport - Ski Instructor */}
                     <li className="relative ml-10 py-4">
-                      <a target="_blank" className="absolute -left-16 top-4 flex items-center justify-center rounded-full bg-white" href="#">
+                      <a target="_blank" className="absolute -left-16 top-4 flex items-center justify-center rounded-full bg-white">
                         <span className="relative flex shrink-0 overflow-hidden rounded-full size-12 border">
                           <img className="aspect-square h-full w-full bg-background object-contain" alt="WinSport" src="/images/winsport_logo.svg"/>
                         </span>
@@ -127,7 +140,7 @@ export default function App() {
                     </li>
                     {/* CCH YMCA - Camp Counselor */}
                     <li className="relative ml-10 py-4">
-                      <a target="_blank" className="absolute -left-16 top-4 flex items-center justify-center rounded-full bg-white" href="#">
+                      <a target="_blank" className="absolute -left-16 top-4 flex items-center justify-center rounded-full bg-white">
                         <span className="relative flex shrink-0 overflow-hidden rounded-full size-12 border">
                           <img className="aspect-square h-full w-full bg-background object-contain" alt="Camp Chief Hector - YMCA" src="/images/ymca_logo.svg"/>
                         </span>
@@ -147,7 +160,7 @@ export default function App() {
                 <div className="transition-all duration-500 mt-2 border border-white rounded-lg">
                   <ul className="ml-10 border-l">
                     <li className="relative ml-10 py-4">
-                      <a target="_blank" className="absolute -left-16 top-4 flex items-center justify-center rounded-full bg-white" href="#">
+                      <a target="_blank" className="absolute -left-16 top-4 flex items-center justify-center rounded-full bg-white">
                         <span className="relative flex shrink-0 overflow-hidden rounded-full size-12 border">
                           <img className="aspect-square h-full w-full bg-background object-contain" alt="University" src="/images/mru_logo.svg" />
                         </span>
